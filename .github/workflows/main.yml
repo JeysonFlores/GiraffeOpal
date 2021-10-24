@@ -15,7 +15,7 @@ jobs:
     - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
       with:
         bundle: GiraffeFlatpak.flatpak
-        manifest-path: com.github.jeysonflores.sml.yml
+        manifest-path: com.github.jeysonflores.giraffeflatpak.yml
         run-tests: true
         repository-name: appcenter
         repository-url: https://flatpak.elementary.io/repo.flatpakrepo
