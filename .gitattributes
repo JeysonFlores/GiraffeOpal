@@ -1,1 +1,3 @@
 Makefile linguist-language=Standard ML
+# Use an approximate language for syntax highlighting (clojure is pretty close)
+*.janet linguist-language=clojure
