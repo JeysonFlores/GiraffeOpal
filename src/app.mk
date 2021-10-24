@@ -14,7 +14,7 @@ ifdef MLTON_VERSION
 
 SRC_MLTON := $(shell $(MLTON_MLTON) -mlb-path-var 'GIRAFFE_SML_LIB $(GIRAFFE_SML_LIBDIR)' -stop f mlton.mlb)
 
-TARGET_MLTON := com.github.jeysonflores.sml
+TARGET_MLTON := com.github.jeysonflores.giraffeflatpak
 
 endif
 
@@ -29,7 +29,7 @@ ifdef POLYML_VERSION
 
 SRC_POLYML := $(shell cat polyml-app.sml | sed -n 's|^use "\([^"]*\)";$$|\1|p')
 
-TARGET_POLYML := com.github.jeysonflores.sml
+TARGET_POLYML := com.github.jeysonflores.giraffeflatpak
 
 endif
 

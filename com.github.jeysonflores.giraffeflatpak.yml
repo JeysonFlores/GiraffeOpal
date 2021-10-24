@@ -1,10 +1,10 @@
-app-id: com.github.jeysonflores.sml
+app-id: com.github.jeysonflores.giraffeflatpak
 
 runtime: io.elementary.Platform
 runtime-version: '6'
 sdk: io.elementary.Sdk
 
-command: com.github.jeysonflores.sml
+command: com.github.jeysonflores.giraffeflatpak
 
 finish-args:
   - '--share=ipc'
@@ -31,7 +31,7 @@ modules:
         url: http://giraffelibrary.org/releases/1.0.0-alpha.11/giraffe-1.0.0-alpha.11.tar.gz
         sha256: 22f852353a306af7719526317995064434b881e6cde7a58870d731600791ce18
 
-  - name: sml
+  - name: giraffeflatpak
     buildsystem: simple
     build-commands:
      - make install

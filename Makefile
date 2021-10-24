@@ -4,8 +4,8 @@ PREFIX ?= /app
 
 install:
 	cd src && make polyml
-	install -D -m 0755 src/com.github.jeysonflores.sml $(PREFIX)/bin/com.github.jeysonflores.sml
+	install -D -m 0755 src/com.github.jeysonflores.giraffeflatpak $(PREFIX)/bin/com.github.jeysonflores.giraffeflatpak
 
 
 uninstall:
-	rm -f $(PREFIX)/bin/com.github.jeysonflores.sml
+	rm -f $(PREFIX)/bin/com.github.jeysonflores.giraffeflatpak
